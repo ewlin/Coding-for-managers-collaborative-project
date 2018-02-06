@@ -22,6 +22,7 @@
 
 ### What you'll learn:
 * How to make RESTful requests using AJAX on the client-side and understand the client-side/browser APIs
+> An example API (Instagram: https://www.instagram.com/developer/endpoints/) (https://www.instagram.com/developer/endpoints/users/)
 * How to read and interpret the response (JSON) 
 * How to turn that JSON into something you can use with your code. (JSON API) 
 * Learn about the native events APIs (https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) 
