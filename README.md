@@ -26,7 +26,7 @@
 * How to read and interpret the response (JSON) 
 * How to turn that JSON into something you can use with your code. (JSON API) 
 * Learn about the native events APIs (https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) 
-https://www.w3schools.com/jsref/met_document_addeventlistener.asp
+(https://www.w3schools.com/jsref/met_document_addeventlistener.asp)
 * Learn how to manipulate the DOM using JavaScript (for example, add more DOM elements to the DOM representation of your HTML without changing your html document. 
 * Learn about using a third-party library for certain functions instead of the native functions in your browser (e.g., jQuery)
 
@@ -35,6 +35,7 @@ https://www.w3schools.com/jsref/met_document_addeventlistener.asp
 * What will you try to accomplish first? 
 * Add new features step by step. As you add more features that require new skills, adding the next feature will be easier. 
 * Think about how to delegate so you avoid having more than one or two people working on the same part of a file. 
+* How will the weekly project manager delegate? 
 
 ### Scheduling: 
 * Week 1 (Feb 12-14)- 
