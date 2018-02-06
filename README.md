@@ -9,6 +9,7 @@
 * Library APIs (third-party). What are there so many 3rd-party APIs? 
 * HTML Form elements (input, button, etc.)
 * JavaScript Array API
+* How to use Markdown to write your README files: (http://markdown-guide.readthedocs.io/en/latest/basics.html)
 
 
 ## *Collaborative Project*
@@ -20,9 +21,11 @@
 
 ### What you'll learn:
 * How to make RESTful requests using AJAX on the client-side and understand the client-side/browser APIs
-* How to read and interpret the response 
+* How to read and interpret the response (JSON) 
+* How to turn that JSON into something you can use with your code. (JSON API) 
 * Learn about the native events APIs (https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) 
 https://www.w3schools.com/jsref/met_document_addeventlistener.asp
+* Learn how to manipulate the DOM using JavaScript (for example, add more DOM elements to the DOM representation of your HTML without changing your html document. 
 * Learn about using a third-party library for certain functions instead of the native functions in your browser (e.g., jQuery)
 
 
