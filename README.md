@@ -33,7 +33,7 @@ https://www.w3schools.com/jsref/met_document_addeventlistener.asp
 
 ### Scheduling: 
 * Week 1 (Feb 12-14)- 
-- Create a static design or wireframe for the different states your app will have (e.g., what does the user see when they first land on your app?), consider the number of different states your app will have. 
-- Turn the static wireframe into html and css
+> * Create a static design or wireframe for the different states your app will have (e.g., what does the user see when they first land on your app?), consider the number of different states your app will have. 
+> * Turn the static wireframe into html and css
 * Week 2 (Feb 21) 
 * Week 3 (Feb 26-28)
