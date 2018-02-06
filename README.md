@@ -17,6 +17,7 @@
 ### What you'll do:
 #### Design & create a interactive client-side app that:
 * Allows users to search for all the GitHub repositories that belong to a particular organization or company
+> Github API documentation: https://developer.github.com/v3/orgs/
 * Visually segment different repositories based on the main programming language used in that repository 
 
 ### What you'll learn:
