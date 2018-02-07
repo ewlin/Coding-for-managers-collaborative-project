@@ -9,6 +9,7 @@
 * Library APIs (third-party). What are there so many 3rd-party APIs? 
 * HTML Form elements (input, button, etc.)
 * JavaScript Array API
+* Object-oriented programming
 * How to use Markdown to write your README files: (http://markdown-guide.readthedocs.io/en/latest/basics.html)
 
 
