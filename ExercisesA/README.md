@@ -58,10 +58,10 @@ arrayOfSciFiBooks.concat(['American Gods: Neil Gaiman', 'Cloud Atlas: David Mitc
 ```
 		*Question:* Does using .concat on an array change the original array? That is, if you join two arrays together, and you try to reference or access your original array (i.e., arrayofSciFiBooks), does that original reference update? *Try this out! How can you test your theory?*
 
-3. *Bonus Challenge:*
-   This one will require some Googling and struggling. 
-	 * Part A: How to replace a part of a string. 
-   Manipulating strings is a very common part of programming and software. Any time you have some product functionality like autocomplete, or autocorrect, or data cleaning, etc. there's probably some string manipulation that's underlying the software and code. Let's take our array of books and try something: 
+3. *Bonus Challenge: How to replace a part of a string.*
+This one will require some Googling and struggling. 
+
+Manipulating strings is a very common part of programming and software. Any time you have some product functionality like autocomplete, or autocorrect, or data cleaning, etc. there's probably some string manipulation that's underlying the software and code. Let's take our array of books and try something: 
 	 Right now, each book entry looks like: 
 ```javascript
 'Book Title: Author Name'
