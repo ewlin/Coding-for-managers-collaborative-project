@@ -22,5 +22,29 @@ Then click the 'console' tab
     aString // "hello"
     aString.length // 5 (property access)
 		aString.toUpperCase() // "HELLO" (a string method)
+		
 
-* *Arrays*, which are ordered, sequential lists of values are very similar to 
+* *Arrays*, which are ordered, sequential lists of values are very similar to strings. Like the characters in any string, the values in an array are sequentially ordered, so you can ask an array a lot of the same questions
+
+### Exercise: 
+Given the following code: 
+    var arrayOfSciFiBooks = ['Dune: Frank Herbert', 'The Left Hand of Darkness: Ursula K. LeGuin', 'Kindred: Octavia Butler', 'The Man in the High Castle: Philip K. Dick']; 
+
+1. What would you expect the value of the following to be?
+    arrayOfSciFiBooks[0]; // ??
+		arrayOfSciFiBooks.length; // ??
+		arrayOfSciFiBooks[2]; // ??
+		arrayOfSciFiBooks[arrayOfSciFiBooks.length]; // ??
+
+2. With strings, you can join two or more strings by using the '+' operator. So I can do this:
+    "Hello" + ", my name is: " + "Eric" // to get "Hello, my name is: Eric" as a result
+   I could also use the *String*.concat() method: 
+	  "Hello".concat(", my name is: ", "Eric") // to get the same result 
+	 It turns out, you can also join arrays together using concatenation: 
+	  //Try this in your console:
+		arrayOfSciFiBooks.concat(['American Gods: Neil Gaiman', 'Cloud Atlas: David Mitchell'])
+		*Question:* Does using .concat on an array change the original array? That is, if you join two arrays together, and you try to reference or access your original array (i.e., arrayofSciFiBooks), does that original reference update? *Try this out! How can you test your theory?*
+
+3. *Challenge:*
+   This one will require some Googling and struggling. 
+	 * Part A
