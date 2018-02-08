@@ -51,15 +51,15 @@ arrayOfSciFiBooks[arrayOfSciFiBooks.length]; // ??
 ```javascript
 "Hello".concat(", my name is: ", "Eric") // to get the same result 
 ```
-	 It turns out, you can also join arrays together using concatenation: 
-	  //Try this in your console:
+It turns out, you can also join arrays together using concatenation: 
 ```javascript
+//Try this in your console:
 arrayOfSciFiBooks.concat(['American Gods: Neil Gaiman', 'Cloud Atlas: David Mitchell'])
 ```
 *Question 1:* Does using .concat on an array change the original array? That is, if you join two arrays together, and you try to reference or access your original array (i.e., arrayofSciFiBooks), does that original reference update? *Try this out! How can you test your theory?*
+
 *Question 2:* What happens if you try to concat two arrays together using the `+` operator? 
 
-		
 
 3. **Bonus Challenge: How to replace a part of a string.**
 This one will require some Googling and struggling. 
