@@ -83,7 +83,9 @@ function formatBookAndAuthor(originalString) {
 formatBookAndAuthor('The Man in the High Castle: Philip K. Dick') //should result in: 
 // 'The Man in the High Castle: by Philip K. Dick'
 ```
-    If you're feeling extra adventurous (or want more practice), try writing a second function that gets you this!
+
+If you're feeling extra adventurous (or want more practice), try writing a second function that gets you this!
+
 ```javascript
 //Your function: 
 function anotherWayToFormatBookAndAuthor(originalString) {
