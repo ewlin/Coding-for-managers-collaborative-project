@@ -92,6 +92,8 @@ function anotherWayToFormatBookAndAuthor(originalString) {
 }
 
 //Then, when you use your function: 
-formatBookAndAuthor('The Man in the High Castle: Philip K. Dick') //should result in: 
-// 'The Man in the High Castle is a book by Philip K. Dick'
+anotherWayToFormatBookAndAuthor('The Man in the High Castle: Philip K. Dick') //should result in: 
+// 'The Man in the High Castle is a novel by Philip K. Dick'
+anotherWayToFormatBookAndAuthor('Cloud Atlas: David Mitchell') // should result in: 
+// 'Cloud Atlas is a novel by David Mitchell'
 ```
