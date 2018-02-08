@@ -36,14 +36,14 @@ Given the following code:
 ```javascript
 var arrayOfSciFiBooks = ['Dune: Frank Herbert', 'The Left Hand of Darkness: Ursula K. LeGuin', 'Kindred: Octavia Butler', 'The Man in the High Castle: Philip K. Dick']; 
 ```
-1. What would you expect the value of the following to be?
+1. **What would you expect the value of the following to be?**
 ```javascript
 arrayOfSciFiBooks[0]; // ??
 arrayOfSciFiBooks.length; // ??
 arrayOfSciFiBooks[2]; // ??
 arrayOfSciFiBooks[arrayOfSciFiBooks.length]; // ??
 ```
-2. With strings, you can join two or more strings by using the '+' operator. So I can do this:
+2. **With strings, you can join two or more strings by using the '+' operator. So I can do this:**
 ```javascript
 "Hello" + ", my name is: " + "Eric" // to get "Hello, my name is: Eric" as a result
 ```
@@ -56,9 +56,12 @@ arrayOfSciFiBooks[arrayOfSciFiBooks.length]; // ??
 ```javascript
 arrayOfSciFiBooks.concat(['American Gods: Neil Gaiman', 'Cloud Atlas: David Mitchell'])
 ```
-		*Question:* Does using .concat on an array change the original array? That is, if you join two arrays together, and you try to reference or access your original array (i.e., arrayofSciFiBooks), does that original reference update? *Try this out! How can you test your theory?*
+*Question 1:* Does using .concat on an array change the original array? That is, if you join two arrays together, and you try to reference or access your original array (i.e., arrayofSciFiBooks), does that original reference update? *Try this out! How can you test your theory?*
+*Question 2:* What happens if you try to concat two arrays together using the `+` operator? 
 
-3. *Bonus Challenge: How to replace a part of a string.*
+		
+
+3. **Bonus Challenge: How to replace a part of a string.**
 This one will require some Googling and struggling. 
 
 Manipulating strings is a very common part of programming and software. Any time you have some product functionality like autocomplete, or autocorrect, or data cleaning, etc. there's probably some string manipulation that's underlying the software and code. Let's take our array of books and try something: 
