@@ -92,7 +92,7 @@ function functionName (placeholder1) { }
 ```
 You can actually reference `originalString` anywhere in the body (the inside) of the function that you'll fill out and code. `originalString` is a placeholder that will refer to whatever the value is that the user includes as an input when they use your function. 
 
-So if I use `functionName('hello')` with an input (aka argument) of a string `'hello'`, when the function runs, anytime the computer encounters the variable name `originalString`, it'll substitute in the value `'hello'`. 
+So in the case of the hypothetical/fake function `functionName`, if I call the function `functionName('hello')` with an input (aka argument) of a string `'hello'`, when the function runs, anytime the computer encounters the variable name `placeholder1` inside the function, it'll substitute in the value `'hello'`. 
 
 
 If you're feeling extra adventurous (or want more practice), try writing a second function that gets you this!
