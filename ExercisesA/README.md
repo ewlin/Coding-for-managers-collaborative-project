@@ -86,11 +86,12 @@ function formatBookAndAuthor(originalString) {
 formatBookAndAuthor('The Man in the High Castle: Philip K. Dick') //should result in: 
 // 'The Man in the High Castle: by Philip K. Dick'
 ```
-Remember: since you defined `originalString` in your function signature--i.e., the part that looks like 
+Remember: since you referenced `originalString` in your function signature--i.e., the part that looks like 
 ```javascript
 function functionName (placeholder1) { }
 ```
-You can actually reference `originalString` anywhere in the body (the inside) of the function that you'll fill out and code. `originalString` will refer to the value that the user inputs when they use your function. 
+You can actually reference `originalString` anywhere in the body (the inside) of the function that you'll fill out and code. `originalString` is a placeholder that will refer to whatever the value is that the user includes as an input when they use your function. 
+
 So if I use `functionName('hello')` with an input (aka argument) of a string `'hello'`, when the function runs, anytime the computer encounters the variable name `originalString`, it'll substitute in the value `'hello'`. 
 
 
