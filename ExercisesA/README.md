@@ -31,7 +31,7 @@ aString.toUpperCase() // "HELLO" (a string method)
 
 * *Arrays*, which are ordered, sequential lists of values are very similar to strings. Like the characters in any string, the values in an array are sequentially ordered, so you can ask an array a lot of the same questions
 
-### Exercise: 
+### EXERCISES:
 Given the following code: 
 ```javascript
 var arrayOfSciFiBooks = ['Dune: Frank Herbert', 'The Left Hand of Darkness: Ursula K. LeGuin', 'Kindred: Octavia Butler', 'The Man in the High Castle: Philip K. Dick']; 
