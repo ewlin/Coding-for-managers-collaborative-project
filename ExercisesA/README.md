@@ -74,11 +74,11 @@ Manipulating strings is a very common part of programming and software. Any time
    *Hint:*
 	 Using what you already know about strings and arrays (index access, arrays and strings, .concat and .length, etc.), try looking up these three JavaScript functions: 
 	 *String.split(), String.replace(), and Array.join()*
-	 You can write your code in any way you want, but here's a hint: 
+	 You can write your code in any way you want, but here's a hint and some code to get you started: 
 ```javascript
 //Your function: 
 function formatBookAndAuthor(originalString) {
-	//your code
+	//your code/function body
 	//return formattedString; 
 }
 
@@ -86,6 +86,13 @@ function formatBookAndAuthor(originalString) {
 formatBookAndAuthor('The Man in the High Castle: Philip K. Dick') //should result in: 
 // 'The Man in the High Castle: by Philip K. Dick'
 ```
+Remember: since you defined `originalString` in your function signature--i.e., the part that looks like 
+```javascript
+function functionName (placeholder1) { }
+```
+You can actually reference `originalString` anywhere in the body (the inside) of the function that you'll fill out and code. `originalString` will refer to the value that the user inputs when they use your function. 
+So if I use `functionName('hello')` with an input (aka argument) of a string `'hello'`, when the function runs, anytime the computer encounters the variable name `originalString`, it'll substitute in the value `'hello'`. 
+
 
 If you're feeling extra adventurous (or want more practice), try writing a second function that gets you this!
 
@@ -102,3 +109,4 @@ anotherWayToFormatBookAndAuthor('The Man in the High Castle: Philip K. Dick') //
 anotherWayToFormatBookAndAuthor('Cloud Atlas: David Mitchell') // should result in: 
 // 'Cloud Atlas is a novel by David Mitchell'
 ```
+
