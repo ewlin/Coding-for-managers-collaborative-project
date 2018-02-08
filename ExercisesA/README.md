@@ -34,7 +34,7 @@ aString.toUpperCase() // "HELLO" (a string method)
 ### Exercise: 
 Given the following code: 
 ```javascript
-    var arrayOfSciFiBooks = ['Dune: Frank Herbert', 'The Left Hand of Darkness: Ursula K. LeGuin', 'Kindred: Octavia Butler', 'The Man in the High Castle: Philip K. Dick']; 
+var arrayOfSciFiBooks = ['Dune: Frank Herbert', 'The Left Hand of Darkness: Ursula K. LeGuin', 'Kindred: Octavia Butler', 'The Man in the High Castle: Philip K. Dick']; 
 ```
 1. What would you expect the value of the following to be?
 ```javascript
@@ -58,6 +58,40 @@ arrayOfSciFiBooks.concat(['American Gods: Neil Gaiman', 'Cloud Atlas: David Mitc
 ```
 		*Question:* Does using .concat on an array change the original array? That is, if you join two arrays together, and you try to reference or access your original array (i.e., arrayofSciFiBooks), does that original reference update? *Try this out! How can you test your theory?*
 
-3. *Challenge:*
+3. *Bonus Challenge:*
    This one will require some Googling and struggling. 
-	 * Part A
+	 * Part A: How to replace a part of a string. 
+   Manipulating strings is a very common part of programming and software. Any time you have some product functionality like autocomplete, or autocorrect, or data cleaning, etc. there's probably some string manipulation that's underlying the software and code. Let's take our array of books and try something: 
+	 Right now, each book entry looks like: 
+```javascript
+'Book Title: Author Name'
+```
+   What if we want to change the format to `'Book Title: by Author Name'` or `'Book Title by Author Name'`? 
+	 If our input is `'The Man in the High Castle: Philip K. Dick'`, how would you turn this string into the new formats using different string functions? 
+   *Hint:*
+	 Using what you already know about strings and arrays (index access, arrays and strings, .concat and .length, etc.), try looking up these three JavaScript functions: 
+	 *String.split(), String.replace(), and Array.join()*
+	 You can write your code in any way you want, but here's a hint: 
+```javascript
+//Your function: 
+function formatBookAndAuthor(originalString) {
+	//your code
+	//return formattedString; 
+}
+
+//Then, when you use your function: 
+formatBookAndAuthor('The Man in the High Castle: Philip K. Dick') //should result in: 
+// 'The Man in the High Castle: by Philip K. Dick'
+```
+    If you're feeling extra adventurous (or want more practice), try writing a second function that gets you this!
+```javascript
+//Your function: 
+function anotherWayToFormatBookAndAuthor(originalString) {
+	//your code
+	//return formattedString; 
+}
+
+//Then, when you use your function: 
+formatBookAndAuthor('The Man in the High Castle: Philip K. Dick') //should result in: 
+// 'The Man in the High Castle is a book by Philip K. Dick'
+```
