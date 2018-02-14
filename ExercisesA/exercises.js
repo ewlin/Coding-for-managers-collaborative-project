@@ -1,5 +1,35 @@
 //Collaborative Project Wed Feb 14-Wed Feb 21
 
+/** Setup:
+1) If you haven't for forked this project: https://github.com/ewlin/Coding-for-managers-collaborative-project
+Fork it on your github
+
+2) Once you've forked it, make sure you have an upstream pointed to the origin so you can pull new changes from the
+original repo:
+git remote add upstream https://github.com/ewlin/Coding-for-managers-collaborative-project.git
+
+To check this is working, type:
+git remote
+
+to see if both origin and upstream are listed. Is so, you're good to go!
+
+3) When you finish your assigned section, one of you (if you're working in pairs) should go ahead and
+add/commit/push your own changes to your own forked repo (it doesn't matter which person does this). Then,
+GO BACK TO MY ORIGIN REPO (https://github.com/ewlin/Coding-for-managers-collaborative-project) (NOT YOUR FORK!!!)
+and create a pull request to merge your changes into the original forked repo.
+
+/**practice
+    Everyone:
+    Write your name in this list here under my name in your fork.
+
+    Maintainers:
+    Eric W. Lin
+**/
+
+
+**/
+
+
 var arrayOfSciFiBooks = ['Dune: Frank Herbert',
                          'The Left Hand of Darkness: Ursula K. LeGuin',
                          'Kindred: Octavia Butler',
@@ -11,8 +41,8 @@ var arrayOfSciFiBooks = ['Dune: Frank Herbert',
     Objective: Write some code that will print out each item in the array (all strings) into the console.
     A) Reminder: in the browser, the function to use to print text to the console is:
             console.log(STUFF YOU WANT TO PRINT)
-    B) How do you loop through an array? What is a "loop"? The array has 4 items, but what if it's an array
-    with 500 items? e.g.: var arrayOfNumers = [1,2,3,4,...500]
+    B) To think about: How do you loop through an array? What is a "loop"? The array has 4 items,
+    but what if it's an array with 500 items? e.g.: var arrayOfNumers = [1,2,3,4,...500]
 
     Part 1B:
     Objective: Loop through the above array, and format the array of strings to an array of objects (in JavaScript)
