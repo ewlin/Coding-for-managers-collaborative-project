@@ -18,7 +18,7 @@ add/commit/push your own changes to your own forked repo (it doesn't matter whic
 GO BACK TO MY ORIGIN REPO (https://github.com/ewlin/Coding-for-managers-collaborative-project) (NOT YOUR FORK!!!)
 and create a pull request to merge your changes into the original forked repo.
 
-/**practice
+!!! practice
     Everyone:
     Write your name in this list here under my name in your fork.
 
@@ -27,7 +27,6 @@ and create a pull request to merge your changes into the original forked repo.
 **/
 
 
-**/
 
 
 var arrayOfSciFiBooks = ['Dune: Frank Herbert',
