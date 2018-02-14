@@ -44,7 +44,8 @@ var arrayOfSciFiBooks = ['Dune: Frank Herbert',
     but what if it's an array with 500 items? e.g.: var arrayOfNumers = [1,2,3,4,...500]
 
     Part 1B:
-    Objective: Loop through the above array, and format the array of strings to an array of objects (in JavaScript)
+    Objective: Loop through the above array, and format the array of strings to an array of objects (in JavaScript). You can write
+    a function if you'd like, but it's not strictly required.
     Input: The array named arrayOfSciFiBooks
     Output: An array of objects that looks like this:
 
@@ -128,6 +129,7 @@ var arrayOfSciFiBooks = ['Dune: Frank Herbert',
 
     Assigned to: 2 students
     Write your code below:
+    (YOUR CODE WILL BE IN JAVASCRIPT. YOU ARE NOT WRITING ANY HTML...)
 
 **/
 
