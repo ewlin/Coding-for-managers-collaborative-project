@@ -63,7 +63,7 @@ var arrayOfSciFiBooks = ['Dune: Frank Herbert',
 
     HINT: You can use some of the tools we used on Monday to reformat the string by itself (e.g., String.split(':'))
 
-    Assigned to: 2 students
+    Assigned to: Adrian & Matt
 
     Write your code below:
 
@@ -88,7 +88,7 @@ var arrayOfSciFiBooks = ['Dune: Frank Herbert',
 
     B) What about return the author?
 
-    Assigned to: 1 student
+    Assigned to: Maxwell
     Write your code below:
 
 **/
@@ -127,7 +127,7 @@ var arrayOfSciFiBooks = ['Dune: Frank Herbert',
 
     The trick is to NOT edit the html, but only add jquery code to this file!
 
-    Assigned to: 2 students
+    Assigned to: Liza & Diana
     Write your code below:
     (YOUR CODE WILL BE IN JAVASCRIPT. YOU ARE NOT WRITING ANY HTML...)
 
