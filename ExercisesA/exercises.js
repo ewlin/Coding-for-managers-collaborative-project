@@ -95,6 +95,17 @@ var arrayOfSciFiBooks = ['Dune: Frank Herbert',
 
 //YOUR CODE GOES HERE
 
+var = returnTitle(bookID) {
+    return book.title;
+}
+
+var = returnAuthor(bookID) {
+    return book.author;
+}
+
+returnTitle(book);
+
+returnAuthor(book);
 
 /**
     Part 3:
