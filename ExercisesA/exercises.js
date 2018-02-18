@@ -133,4 +133,10 @@ var arrayOfSciFiBooks = ['Dune: Frank Herbert',
 
 **/
 
-//YOUR CODE GOES HERE
+/** Also added this to the html file so it would work**/ 
+<script>
+$("ul").append("<p>hello</p>");
+</script>
+
+  
+
