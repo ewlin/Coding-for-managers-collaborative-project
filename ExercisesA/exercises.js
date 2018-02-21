@@ -40,6 +40,16 @@ var arrayOfSciFiBooks = ['Dune: Frank Herbert',
     Objective: Write some code that will print out each item in the array (all strings) into the console.
     A) Reminder: in the browser, the function to use to print text to the console is:
             console.log(STUFF YOU WANT TO PRINT)
+            
+            /**var arrayOfSciFiBooks = ["Dune: Frank Herbert",
+                         "The Left Hand of Darkness: Ursula K. LeGuin",
+                         "Kindred: Octavia Butler",
+                         "The Man in the High Castle: Philip K. Dick"];
+
+            for (var i = 0; i < arrayOfSciFiBooks.length; i++) {
+            console.log(arrayOfSciFiBooks[i]);
+            };
+            
     B) To think about: How do you loop through an array? What is a "loop"? The array has 4 items,
     but what if it's an array with 500 items? e.g.: var arrayOfNumers = [1,2,3,4,...500]
 
@@ -67,9 +77,20 @@ var arrayOfSciFiBooks = ['Dune: Frank Herbert',
 
     Write your code below:
 
-**/
+/**function newArray (test) {
+var splitString = test.split(":");
+var formated = "title:" + " " + splitString[0] + "," + " " + "author:" + " " + splitString[1];
+return formated;
+}
 
-//YOUR CODE GOES HERE
+
+var arrayOfSciFiBooks = ['Dune: Frank Herbert',
+                         'The Left Hand of Darkness: Ursula K. LeGuin',
+                         'Kindred: Octavia Butler',
+                         'The Man in the High Castle: Philip K. Dick'];
+
+for (var i = 0; i < arrayOfSciFiBooks.length; i++) {
+console.log(newArray(arrayOfSciFiBooks[i]));
 
 
 /**
