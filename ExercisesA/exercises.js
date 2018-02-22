@@ -24,6 +24,7 @@ and create a pull request to merge your changes into the original forked repo.
 
     Maintainers:
     Eric W. Lin
+    Diana Bhaktul
 **/
 
 
@@ -133,4 +134,6 @@ var arrayOfSciFiBooks = ['Dune: Frank Herbert',
 
 **/
 
-//YOUR CODE GOES HERE
+<script>
+$("ul").append("<p>hello</p>");
+</script>
