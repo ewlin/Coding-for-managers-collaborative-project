@@ -13,14 +13,39 @@
                 padding: 5px;
                 list-style: none;
             }
+
+            div {
+                width: 100%;
+                height: 50px;
+            }
+
+            .hidden {
+                display: none;
+            }
+
+            .green {
+                background-color: green;
+
+            }
+
+            .blue {
+                background-color: blue;
+            }
+
         </style>
 
     </head>
 
     <body>
-        <input id="search-field"><button>Search</button>
+        <!-- Group exercise portion -->
+        <input id="search-field"><button class="search">Search</button>
         <ul></ul>
-        
+
+        <!-- Individual exercise portion -->
+        <button class="toggle">Toggle Divs</button>
+        <div class="green hidden">Green</div>
+        <div class="blue">Blue</div>
+
         <script
             src="http://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="

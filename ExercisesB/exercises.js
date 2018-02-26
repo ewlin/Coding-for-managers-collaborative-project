@@ -39,8 +39,25 @@
 
     See what happens!
 
-    What's printed to the console? 
+    What's printed to the console?
 
+**/
+
+/**
+    Individual Exercise:
+    Using the button with a class of 'toggle' as a start, make the two divs alternate back and forth as you click the toggle button
+
+**/
+    //Code goes HERE
+
+
+
+/**
+    In-class Group exercise:
+
+    Using what we learned last week, and what we just tried, work together to build a small app that:
+
+    1)
 **/
 
 //Code goes here
