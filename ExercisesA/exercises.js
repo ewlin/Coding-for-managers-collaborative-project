@@ -29,10 +29,6 @@ and create a pull request to merge your changes into the original forked repo.
 
 
 
-var arrayOfSciFiBooks = ['Dune: Frank Herbert',
-                         'The Left Hand of Darkness: Ursula K. LeGuin',
-                         'Kindred: Octavia Butler',
-                         'The Man in the High Castle: Philip K. Dick'];
 
 
 /**
@@ -134,3 +130,38 @@ var arrayOfSciFiBooks = ['Dune: Frank Herbert',
 **/
 
 //YOUR CODE GOES HERE
+
+function splittingString(bookMetaData) {
+    var splitString = bookMetaData.split(":");
+    var formated = "title:" + " " + splitString[0] + "," + " " + "author:" + " " + splitString[1];
+    return formated;
+}
+
+var arrayOfSciFiBooks = ['Dune: Frank Herbert',
+                         'The Left Hand of Darkness: Ursula K. LeGuin',
+                         'Kindred: Octavia Butler',
+                         'The Man in the High Castle: Philip K. Dick'];
+
+
+var newArrayOfBooks = [
+    {
+        title: 'Dune',
+        author: 'Frank Herbert'
+    },
+    {
+        title: 'The Left Hand of Darkness',
+        author: 'Ursula K. LeGuin'
+    },
+    //ETC.
+];
+
+
+
+
+
+var arrayLength = arrayOfSciFiBooks.length;
+for (var i=0; i<arrayLength; i++) {
+    var book = arrayOfSciFiBooks[i];
+    var listElement
+    $('ul').append(listElement);
+}
