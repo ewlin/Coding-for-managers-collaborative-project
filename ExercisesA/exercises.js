@@ -91,6 +91,17 @@ and create a pull request to merge your changes into the original forked repo.
 
 //YOUR CODE GOES HERE
 
+var = returnTitle(bookID) {
+    return book.title;
+}
+
+var = returnAuthor(bookID) {
+    return book.author;
+}
+
+returnTitle(book);
+
+returnAuthor(book);
 
 /**
     Part 3:
